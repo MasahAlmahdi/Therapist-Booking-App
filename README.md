@@ -23,6 +23,7 @@ JavaScript
 Git & GitHub
 
 To run the project:
+
 1- start the json server:
 json-server --watch db.json --port 5000
 
@@ -34,6 +35,7 @@ cd backend
 node server.js
 
 Features:
+
 -User Authentication: Securely create an account and log in to access the website.
 
 -Therapist Profiles: View detailed information about therapists, including specialties and experience.
@@ -49,6 +51,7 @@ Features:
 -FAQ Section: Access a frequently asked questions section for quick answers.
 
 My part in the project:
+
 -Employing the Stripe fake API in test mode, our payment method ensures a seamless transaction experience. Powered by
 Node.js on the backend, pressing the "Book Now" button triggers a redirection to the Stripe checkout form, seamlessly
 integrating the payment process.
